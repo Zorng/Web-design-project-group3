@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html class="no-touchevents" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/assets/icon/css/icons.css">
+   
+    <link rel="stylesheet" href="test.css">
+    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
+    
+    <title>Generate</title>
+</head>
+
+
+
+<body class="route-generate">
+    <header id="header">
+
+        <!-- Logo -->
+        <a id="header_logo" href="/index.html">
+          <img src="/assets/img/logo.svg">
+        </a>
+        <nav class="nav nav--horizontal nav--large-padding" id="header_nav">
+          <ul>
+            <li>
+              <a class="link link--black header_tools-btn">Tools<!--<i class="icon icon-down-arrow-12px _m-l-1"></i>--></a>
+      
+              <!-- Tools Big Menu -->
+              <div class="big-menu" id="header_tools-menu">
+                <div class="big-menu_left">
+                  <ul>
+                    <li>
+                      <a href="/generate.html">
+                        <img src="/assets/img/menu_icon_generate.svg">
+                        <div>
+                          <span>Palette Generator</span>
+                          <span>Create your palettes in seconds</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/palettes.html">
+                        <img src="/assets/img/menu_icon_explore.svg">
+                        <div>
+                          <span>Explore Palettes</span>
+                          <span>Browse millions of trending color schemes</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/image-picker.html">
+                        <img src="/assets/img/menu_icon_image_picker.svg">
+                        <div>
+                          <span>Image Picker</span>
+                          <span>Get beautiful palettes from your photos</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/contrast-checker.html">
+                        <img src="/assets/img/menu_icon_contrast_checker.svg">
+                        <div>
+                          <span>Contrast Checker</span>
+                          <span>Check the contrast between two colors</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/visualizer.html">
+                        <img src="/assets/img/menu_icon_visualizer.svg">
+                        <div>
+                          <span>Palette Visualizer<div class="badge badge--violet _m-l-1">New</div></span>
+                          <span>Preview your colors on real designs</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div></div>
+                </div>
+                <div class="big-menu_right">
+                  <ul>
+                    <!-- <li>
+                      <div>Other tools</div>
+                    </li> -->
+                    <li><a class="link link--black" href="/colors.html">List of colors<span class="badge badge--orange">New</span></a></li>
+                    <li><a class="link link--black" href="/gradients.html">Browse Gradients</a></li>
+                    <li><a class="link link--black" href="/gradient-maker.html">Create a Gradient</a></li>
+                    <li><a class="link link--black" href="/gradient-palette.html">Make a Gradient Palette</a></li>
+                    <li><a class="link link--black" href="/color-picker.html">Color Picker</a></li>
+                    <li><a class="link link--black" href="/collage-maker.html">Collage Maker</a></li>
+                    <li><a class="link link--black" href="/fonts.html">List of Fonts</a></li>
+                    <li><a class="link link--black" href="/image-converter.html">Image Converter</a></li>
+                    <li>
+                      <div>Apps</div>
+                    </li>
+                    <li><a class="link link--black" href="https://apps.apple.com/app/coolors/id956480678" target="_blank" rel="noopener noreferrer">iOS App</a></li>
+                    <li><a class="link link--black" href="https://play.google.com/store/apps/details?id=co.coolors.android" target="_blank" rel="noopener noreferrer">Android App</a></li>
+                    <li><a class="link link--black" href="https://www.figma.com/community/plugin/1068919813159975006/Coolors" target="_blank" rel="noopener noreferrer">Figma Plugin</a></li>
+                    <li><a class="link link--black adobe-download-btn" href="" target="_blank" rel="noopener noreferrer">Adobe Extension<span class="badge badge--magenta">New</span></a></li>
+                    <!-- <li><a class="link link--black" href="https://chrome.google.com/webstore/detail/coolors-for-chrome/paebljbhhfgngkcldmbcogmkgegjgmbg" target="_blank" rel="noopener noreferrer">Chrome Extension</a></li> -->
+                    <!-- <li><a class="link link--black" href="https://www.instagram.com/coolors.co" target="_blank" rel="noopener noreferrer">Instagram Page</a></li> -->
+                  </ul>
+                </div>
+              </div>
+      
+            </li>
+      
+            <!-- <li>
+              <a class="link link--black header_works-btn">Works</a>
+              <div class="header_dropdown-menu" id="header_works-menu">
+                <ul>
+                  <li>
+                    <a class="link link--black" href="/works">
+                      <i class="icon icon-shape-24px"></i>
+                      <div>Explore works</div>
+                      <div>Get inspired by beautiful designs</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link link--black" href="/user/works">
+                      <i class="icon icon-upload-work-24px "></i>
+                      <div>Showcase your work</div>
+                      <div>Show how you are using your palettes</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li> -->
+      
+            <!-- <li>
+              <a class="link link--black header_jobs-btn">Jobs</a>
+              <div class="header_dropdown-menu" id="header_jobs-menu">
+                <ul>
+                  <li>
+                    <a class="link link--black" href="/jobs">
+                      <i class="icon icon-bag-24px"></i>
+                      <div>Job Board</div>
+                      <div>Find your next dream job</div>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link link--black" href="/jobs/new">
+                      <i class="icon icon-handshake-24px "></i>
+                      <div>Post a Job</div>
+                      <div>Hire talented designers worldwide</div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li> -->
+      
+            <li><a class="link link--primary header_go-pro-btn">Go Pro</a></li>
+            <li><span class="divider"></span></li>
+            <li class="hide-logged"><a class="link link--black header_signin-btn">Sign in</a></li>
+            <li class="hide-logged"><a class="btn btn--primary btn--s header_signup-btn">Sign up</a></li>
+    
+          </ul>
+        </nav>
+      
+      
+            <a id="a2vJanT4cdf" class="aNOnabyJuBg acpWsPYWEPq aQCNuLkCLav apWqJlBj2yU aAqIGLQX2jB arwk94QwN5n afphmjM9Sdp aqxSvqbLF8C aovpUmZNvm3 anxCq1Z3jGd aQEAwCAPWO7 aYIWDTM9wgj a6DTYKB61v3 a0VCTzsuhlv ap11Gs6AEm3 adQdTMUl5N3 aqj0ZXVLY45 ahEREdXSosF aMNJHfuAkYJ aQXOL3HQ63T aojWvLpwlyU aqqbLb3Ek1V a4PIoCojjWa aVCmALZmqVK a6ddYG7E09L arzUSSQNnoa azm9s0xOPNN a4cLpOQm3cn aOxoqV5lPNq a2AD04OD0Or ajpMqPLrmYn adoAxywKHAH aVBApRcPrXB a9JDAIcPjCQ aMuSl2eVAgy aUlluPLlWor a7hye9zQcOX alB6vrX6n4Y alveb1AEwc4 acY7nd2EmeW amxPIWVyp90 aVnyHNJvlr0 acLqs0WTGqJ a2FTEFiFFkw aWeuKNtqnZA ajoKmLPOFmm ayuwZbR7gM0 a8w43P3GhYV aZeBe1YWtnL aUZ8MYOofrr aYosf4pzpuv aEE0zCi9eRk aHkgk84auuW aePfYPLWNLk agaSiotmyB3 acVgUDWkHK5 aQkRQkI5BYd ai1v9l3dIHY a2q3u1CknVw aV57QF30n9E aQxMXutvBIh aoeDf34z3lD aCu3W8RgDS2 aLtNYeABnYi aFfWMbGm8jd axmdnXbZVp8 aGhxxAi24Rr aq667igGo5j aH5AjA9y09I asJg4Ai5vR6 amWpJdU9HPM akVpTM1ookm aKKjz67B5FB aDQxd0LzbwT ataUOUAiZar avuFd6VPLkw aJlEj2hKm2Z axeIIf8PrSV atFU61EVEsv azVFrjiL9Rd aRcHDn75ko5 aMt0dVcdXeb aFLWZQLL2EH a9bGobrxFxP a459Mp70iz8 aEmHN995WwK aFSqJfCN9Mq aRIZ9QS7ZzO a19SEJHrggV ari55JAL1A0 aIAkbeSKnp3 annbHaQFylK a8gDUtH83pq ad7EUjtVyNt afg4dM4h8F9 aeChLopaXbg aRoK97cNZVz a2dXSkjWwSM amaoNO5RDLu atolggepI9l a6gXmc2NDrZ asQoDePsgwW alivBxf1DTc aRuTJ7Uqko6 a3b38FXJVaK am1qysdQyXE aqZQur307iY ajpP1VbtqRN as4DNjDuhYG at5vY2RA8qi atey0VpcmlT aGQtp8azt6j adDsfcA935D aL2zAjaCFkM aKLGgBXB0os a3pGsq2SRXN aBMdriFiY7x aWQJQBqPgB0 a1Rshu68QEN azC7jlGsMQp auQhcq8eKVj a6ency5e0oe aB88rpAI88i afOKI7URjj9 aJn8CDvVDgq awe2ChEfU5x a7swJZ8G89X aKVQO676u4M aSsNJNjHLLH aNsh8jdydX7 a8Znlb56EDO aLn6FEFTRzl aX6xW0Kk5JE aB32B5HBbEL aihYyyhuy0S aQWItZN3TdV aeSq8ZJ3or4 aOH8wGxI1ON aD2x8koG5ZE aguzP2lUDHM aHkDwl0GC6B aeg0UeBvcuu abHG6FRF1ZV aZTXLWmyJIj aRzxrqUIJll ablex9NMQsk aYIxbwRJdrd aQaCpzgLtK8">
+              <div id="aRED0TWkz2j" class="a409ebA2Wob aHSvqk33tRa"></div>
+              <div id="ahrzeGLY9jJ" class="anqhyCvFWlZ awiIYN7pcsP aZUA95kiG4L aHShN6imBPG an8NkB0blmA aT1F7I9jTte al2dv48GMko a5vRLv1acXh a5eUxzMdSGv aUHRiWWQ7dJ aaXnbFQ0Ebc aAfrjhB36PY aqEsI6o5g6I ax9TfoHTfFN a9gn3WvV1TO a0Vhc0T83cw a2ggHHgVJo8 aZHcaZKa8TR ajKCZ1kT73x auvflI7XYdH aZramqpw3G4 ahiEIIQEtO3 a68HDFWl8kn aFSnQpsABuE aCJcAdKdugO a2UxngFnyrf atOR5R8cR6I aGGPawcuXRX a0OpsvDtE66 aAbnKtIC0jQ adrObqQkDZe axA67uCrKxh a6f03OtwHEk aLGVFyWaOnM aH3wmSn8qz2 aiVwIApB9Rk axg3yFFLcmL aa7K9PfenKP a25Owrlpdl2 aXP6DNlbL4V aH1BCOucXT1 aOaWfqrQdHE aZokDm297CC aftBEw3I5yN a2Vxvq7PGPN a0AagI01Sqj aeXIcqIrZf2 a09YiIFCxLv a1EEItefec7 aHlgKagpgN4 afzUec613ih ae7IyKFuWvu aZQqlxVlsOu a9JpX63FJU7 aAeqMKmuASk adj35uapTr7 aR5BSOsf9RJ aMVEDv7sQCf aapqW2sJcDw">
+                <span id="a54Ia3o4v9D">Chatbolt.ai</span>
+                <span id="a3dVBS0Xz7u">Create your own ChatGPT chatbot trained with your data from any file or website.</span>
+                <span id="aAzivDlbTVw">try it for free</span>
+                <span id="aJNSG2Fka2E"></span>
+              </div>
+              <div id="a6Z0XsYseB2"></div>
+            </a>
+            <style>
+      
+              #a2vJanT4cdf {
+                position: absolute;
+                left: 160px;
+                top: 15px;
+                height: 30px;
+                align-items: center;
+                cursor: pointer;
+                display: none;
+                text-decoration: none;
+              }
+      
+              #aRED0TWkz2j {
+                  width: 30px;
+                  height: 30px;
+                  min-width: 30px;
+                  min-height: 30px;
+                  border-radius: 4px;
+                  background-size: cover;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  margin-right: 8px;
+                  position: relative;
+              }
+              
+              #aRED0TWkz2j:after {
+                width: 100%;
+                height: 100%;
+                box-shadow: inset rgba(0, 0, 0, 0.075) 0 0 0 1px;
+                border-radius: 4px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: ''; 
+                transition: all .1s ease;
+              }
+            
+              #ahrzeGLY9jJ {
+                font-size: 12px;
+                line-height: 1.3;
+                display: inline-block; 
+                max-height: 32px;
+                overflow: hidden;
+              }
+            
+              #a54Ia3o4v9D {
+                font-variation-settings: 'wght' 600;
+                color: black;
+                margin-right: 5px;
+              }
+            
+              #a3dVBS0Xz7u {
+                color: #636369;
+                margin-right: 4px;
+              }
+            
+              #aAzivDlbTVw {
+                color: #0066ff;
+                text-transform: capitalize;
+                white-space: nowrap;
+              }
+            
+              #aJNSG2Fka2E {
+                color: #b1b0b5;
+                text-transform: uppercase;
+                font-size: 8px;
+                font-variation-settings: 'wght' 600;
+                letter-spacing: 0.04em;
+                margin-left: 5px;
+              }
+            
+              #a6Z0XsYseB2 {
+                position: absolute;
+                left: -9999px;
+              }
+      
+              #a6Z0XsYseB2 img {
+                width: 0;
+                height: 0;
+              }
+      
+              html.no-touchevents #a2vJanT4cdf:hover #aRED0TWkz2j:after {
+                box-shadow: inset rgba(0, 0, 0, 0.3) 0 0 0 1px;
+              }
+              html.no-touchevents #a2vJanT4cdf:hover #a3dVBS0Xz7u {
+                color: #464853;
+              }
+              html.no-touchevents #a2vJanT4cdf:hover #aAzivDlbTVw {
+                text-decoration: underline;
+              }
+              
+            </style>
+    </header>
+    <header id="mobile-header">
+        <a id="mobile-header_menu-btn" onclick="displayMenu()">
+          <i class="icon icon-menu-16px">
+          </i>
+          <i class="icon icon-remove-16px"></i>
+        </a>
+        <a id="mobile-header_logo">
+          <img src="/assets/img/logo.svg"  alt="Logo">
+        </a>
+    </header>
+    
+    <div id="mobile-menu">
+        <div id="mobile-menu_overlay" onclick="hideMenu()"></div>
+        <div id="mobile-menu_inner">
+          <ul>
+            <li><a href="/generate.html">Palette Generator</a></li>
+            <li><a href="/palettes.html">Explore Palettes</a></li>
+            <li><a href="/image-picker.html">Image Picker</a></li>
+            <li><a href="/contrast-checker.html">Contrast Checker</a></li>
+            <li><a href="/fonts.html">List of Fonts<span class="badge badge--violet">New</span></a></li>
+          </ul>
+      
+          <ul>
+            <li>
+              <div>Other tools</div>
+            </li>
+            <li><a href="/colors.html">List of colors<span class="badge badge--orange">New</span></a></li>
+            <li><a href="/gradients.html">Browse Gradients</a></li>
+            <li><a href="/gradient-maker.html">Create a Gradient</a></li>
+            <li><a href="/gradient-palette.html">Make a Gradient Palette</a></li>
+            <li><a href="/color-picker.html">Color Picker</a></li>
+            <li><a href="/collage-maker.html">Collage Maker</a></li>
+            <li><a href="/image-converter.html">Image Converter</a></li>
+          </ul>
+      
+          <!-- <ul>
+            <li>
+              <div>Works</div>
+            </li>
+            <li><a href="/works">Explore works</a></li>
+            <li><a href="/user/works">Showcase your work</a></li>
+          </ul> -->
+      
+          <ul>
+            <li>
+              <div>Jobs</div>
+            </li>
+            <li><a href="/jobs">Job Board</a></li>
+            <li><a href="/jobs/new">Post a Job</a></li>
+          </ul>
+      
+          <ul>
+            <li>
+              <div>Apps</div>
+            </li>
+            <li><a href="https://apps.apple.com/app/coolors/id956480678" target="_blank" rel="noopener noreferrer">iOS App</a></li>
+            <li><a class="link link--black" href="https://play.google.com/store/apps/details?id=co.coolors.android" target="_blank" rel="noopener noreferrer">Android App</a></li>
+            <li><a class="link link--black" href="https://www.figma.com/community/plugin/1068919813159975006/Coolors" target="_blank" rel="noopener noreferrer">Figma Plugin</a></li>
+            <!-- <li><a href="https://creative.adobe.com/addons/products/12124#.V6nhWJOLRE4" target="_blank" rel="noopener noreferrer">Adobe Extension</a></li> -->
+            <li><a href="https://chrome.google.com/webstore/detail/coolors-for-chrome/paebljbhhfgngkcldmbcogmkgegjgmbg" target="_blank" rel="noopener noreferrer">Chrome Extension</a></li>
+            <li><a href="https://www.instagram.com/coolors.co" target="_blank" rel="noopener noreferrer">Instagram Page</a></li>
+          </ul>
+      
+          <ul id="mobile-menu_signed-out">
+            <li>
+              <div>Account</div>
+            </li>
+            <li><a class="header_signin-btn">Sign in</a></li>
+            <li><a class="header_signup-btn">Sign up</a></li>
+            <li><a href="/pricing.html" class="header_go-pro-btn">Go Pro</a></li>
+          </ul>
+      
+          <ul id="mobile-menu_signed-in">
+            <li>
+              <div>Account</div>
+            </li>
+            <li><a href="/user.html">Dashboard</a></li>
+            <li><a href="" class="header_profile-btn">Profile</a></li>
+            <li><a href="/account.html">Account</a></li>
+            <li><a href="/pricing.html" class="header_go-pro-btn">Go Pro</a></li>
+            <li><a class="header_signout-btn">Sign out</a></li>
+          </ul>
+        </div>
+    </div>
+
+    <div id="generator" data-colors="5" class="no-undo no-redo">
+
+        <!-- Sub Header -->
+        <div class="sub-header" id="generator_main-subheader">
+      
+          <div class="navbar navbar--horizontal">
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="More" id="generator_more-btn">
+                  <i class="icon icon-dots-24px"></i>
+                </a>
+                <span class="divider"></span>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Create palette from photo</span>" id="generator_image-picker-btn">
+                  <i class="icon icon-camera-24px"></i>
+                </a>
+                <!-- <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Create a collage" id="generator_collage-maker-btn">
+                  <i class="icon icon-collage-24px"></i>
+                </a> -->
+                <span class="divider"></span>
+              <!-- <li>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Create a collage" id="generator_collage-maker-btn">
+                  <i class="icon icon-time-machine-24px"></i>
+                </a>
+              </li> -->
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Undo<span>CMD + Z</span>" id="generator_undo-btn">
+                  <i class="icon icon-undo-24px"></i>
+                </a>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Redo<span>CMD + ALT + Z</span>" id="generator_redo-btn">
+                  <i class="icon icon-redo-24px"></i>
+                </a>
+                <span class="divider"></span>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Visualize colors" id="generator_visualizer-btn">
+                  <i class="icon icon-visualizer-24px"></i>
+                </a>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="View palette variations" id="generator_variations-btn">
+                  <i class="icon icon-grid-24px"></i>
+                </a>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Check palette contrast" id="generator_contrast-btn">
+                  <i class="icon icon-contrast-24px"></i>
+                </a>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Color blindness" id="generator_blindness-btn">
+                  <i class="icon icon-glasses-24px"></i>
+                </a>
+                <a href="" class="btn btn--s btn--icon btn--transparent" data-tooltip="Adjust palette" id="generator_adjust-btn">
+                  <i class="icon icon-sun-24px"></i>
+                </a>
+                <span class="divider"></span>
+                <a href="" class="btn btn--s btn-- btn--transparent btn--with-icon" data-tooltip="Quick view palette<span>CMD + I</span>" id="generator_view-btn">
+                  <i class="icon icon-view-24px"></i>
+                  <span>View</span>
+                </a>
+                <a href="" class="btn btn--s btn-- btn--transparent btn--with-icon" data-tooltip="Export palette<span>CMD + E</span>" id="generator_export-btn">
+                  <i class="icon icon-export-24px"></i>
+                  <span>Export</span>
+                </a>
+                <a href="" class="btn btn--s btn-- btn--transparent btn--with-icon" data-tooltip="Save palette<span>CMD + S</span>" id="generator_save-btn">
+                  <i class="icon icon-favorite-24px"></i>
+                  <span>Save</span>
+                </a>
+                <span class="divider"></span>
+                <a class="btn btn--s btn--icon btn--transparent" data-tooltip="Saved palettes<span>CMD + P</span>" id="generator_palettes-btn">
+                  <i class="icon icon-menu-16px"></i>
+                </a>
+      </div>
+      
+          <div id="generator_spacebar-suggestion">Press the spacebar to generate color palettes!</div>
+          <a class="btn btn--s btn--secondary btn--inline" id="generator_generate-btn">Generate</a>
+      
+        </div>
+      
+        <!-- Mobile Sub Header -->
+        <div class="sub-header" id="generator_mobile-subheader">
+      
+          <a class="btn btn--secondary btn--s btn--inline" id="generator_mobile-generate-btn">Generate</a>
+      
+          <nav class="nav nav--horizontal nav--large-padding">
+            <ul>
+              <li class="hide-smaller">
+                <a class="link link--black" id="generator_mobile-undo-btn">
+                  <i class="icon icon-undo-24px"></i>
+                </a>
+              </li>
+              <li class="hide-smaller">
+                <a class="link link--black" id="generator_mobile-redo-btn">
+                  <i class="icon icon-redo-24px"></i>
+                </a>
+              </li>
+              <li class="hide-smaller">
+                <span class="divider"></span>
+              </li>
+              <li class="hide-small">
+                <a href="" class="link link--black" id="generator_mobile-view-btn">
+                  <i class="icon icon-view-24px"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="link link--black" id="generator_mobile-export-btn">
+                  <i class="icon icon-export-24px"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="link link--black" id="generator_mobile-save-btn">
+                  <i class="icon icon-favorite-24px"></i>
+                </a>
+              </li>
+              <li>
+                <span class="divider"></span></li>
+              <li>
+                <a class="link link--black" id="generator_mobile-palettes-btn">
+                  <i class="icon icon-menu-16px"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+      
+        </div>
+      
+        <div id="generator_inner">
+      
+          <!-- Ad -->
+          <!-- <div id="generator_cad"></div> -->
+      
+          <!-- Generator Method -->
+          <div id="generator_method-label"><div></div></div>
+      
+          <!-- Generator Colors -->
+          <div id="generator_colors">
+            <div class="generator_color is-light show-content" data-index="0">          
+              <div class="generator_color_background" style="background: rgb(235, 94, 85); box-shadow: rgb(235, 94, 85) 0px 0px 0px 1px;"></div>        <div class="generator_color_content">          <div class="generator_color_hex" data-tooltip="Select color" style="">EB5E55</div>          <div class="generator_color_color-info">Bittersweet</div>          <div class="generator_color_btns">            <div class="generator_color_remove-btn" data-tooltip="Remove color" data-tooltip-container="child"><i class="icon icon-remove-24px"></i></div>            <div class="generator_color_contrast-btn" data-tooltip="Check contrast" data-tooltip-container="child"><i class="icon icon-contrast-24px"></i></div>            <div class="generator_color_shades-btn" data-tooltip="View shades" data-tooltip-container="child"><i class="icon icon-grid-24px"></i></div>            <div class="generator_color_save-btn" data-tooltip-container="child" data-tooltip="Save color"><i class="icon icon-favorite-24px"></i><i class="icon icon-favorite-fill-24px"></i></div>            <div class="generator_color_drag-btn" data-tooltip="Drag" data-tooltip-container="child"><i class="icon icon-enlarge-horizontal-24px"></i><i class="icon icon-enlarge-vertical-24px"></i></div>            <div class="generator_color_copy-btn" data-tooltip="Copy HEX" data-tooltip-container="child"><i class="icon icon-copy-24px"></i></div>            <div class="generator_color_lock-btn" data-tooltip-container="child" data-tooltip="Toggle lock<span>CMD + 1</span>"><i class="icon icon-lock-open-24px"></i><i class="icon icon-lock-24px"></i></div>          </div>          <div class="generator_color_bar-left"></div>          <div class="generator_color_bar-right"></div>          <div class="generator_color_add-btn-left"></div>          <div class="generator_color_add-btn-right"></div>          <div class="generator_color_compare is-small"><div><span></span></div><div><span></span></div></div>          <div class="generator_color_contrast"></div>          <div class="generator_color_multicompare"><div class="generator_color_multicompare_inner"></div></div>        </div>      </div><div class="generator_color show-content"  data-index="1">        <div class="generator_color_background" style="background: rgb(58, 51, 53); box-shadow: rgb(58, 51, 53) 0px 0px 0px 1px;"></div>        <div class="generator_color_content">          <div class="generator_color_hex" data-tooltip="Select color" style="">3A3335</div>          <div class="generator_color_color-info">Jet</div>          <div class="generator_color_btns">            <div class="generator_color_remove-btn" data-tooltip="Remove color" data-tooltip-container="child"><i class="icon icon-remove-24px"></i></div>            <div class="generator_color_contrast-btn" data-tooltip="Check contrast" data-tooltip-container="child"><i class="icon icon-contrast-24px"></i></div>            <div class="generator_color_shades-btn" data-tooltip="View shades" data-tooltip-container="child"><i class="icon icon-grid-24px"></i></div>            <div class="generator_color_save-btn" data-tooltip-container="child" data-tooltip="Save color"><i class="icon icon-favorite-24px"></i><i class="icon icon-favorite-fill-24px"></i></div>            <div class="generator_color_drag-btn" data-tooltip="Drag" data-tooltip-container="child"><i class="icon icon-enlarge-horizontal-24px"></i><i class="icon icon-enlarge-vertical-24px"></i></div>            <div class="generator_color_copy-btn" data-tooltip="Copy HEX" data-tooltip-container="child"><i class="icon icon-copy-24px"></i></div>            <div class="generator_color_lock-btn" data-tooltip-container="child" data-tooltip="Toggle lock<span>CMD + 2</span>"><i class="icon icon-lock-open-24px"></i><i class="icon icon-lock-24px"></i></div>          </div>          <div class="generator_color_bar-left"></div>          <div class="generator_color_bar-right"></div>          <div class="generator_color_add-btn-left"></div>          <div class="generator_color_add-btn-right"></div>          <div class="generator_color_compare is-small"><div><span></span></div><div><span></span></div></div>          <div class="generator_color_contrast"></div>          <div class="generator_color_multicompare"><div class="generator_color_multicompare_inner"></div></div>        </div>      </div><div class="generator_color show-content"  data-index="2">        <div class="generator_color_background" style="background: rgb(216, 30, 91); box-shadow: rgb(216, 30, 91) 0px 0px 0px 1px;"></div>        <div class="generator_color_content">          <div class="generator_color_hex" data-tooltip="Select color" style="">D81E5B</div>          <div class="generator_color_color-info">Raspberry</div>          <div class="generator_color_btns">            <div class="generator_color_remove-btn" data-tooltip="Remove color" data-tooltip-container="child"><i class="icon icon-remove-24px"></i></div>            <div class="generator_color_contrast-btn" data-tooltip="Check contrast" data-tooltip-container="child"><i class="icon icon-contrast-24px"></i></div>            <div class="generator_color_shades-btn" data-tooltip="View shades" data-tooltip-container="child"><i class="icon icon-grid-24px"></i></div>            <div class="generator_color_save-btn" data-tooltip-container="child" data-tooltip="Save color"><i class="icon icon-favorite-24px"></i><i class="icon icon-favorite-fill-24px"></i></div>            <div class="generator_color_drag-btn" data-tooltip="Drag" data-tooltip-container="child"><i class="icon icon-enlarge-horizontal-24px"></i><i class="icon icon-enlarge-vertical-24px"></i></div>            <div class="generator_color_copy-btn" data-tooltip="Copy HEX" data-tooltip-container="child"><i class="icon icon-copy-24px"></i></div>            <div class="generator_color_lock-btn" data-tooltip-container="child" data-tooltip="Toggle lock<span>CMD + 3</span>"><i class="icon icon-lock-open-24px"></i><i class="icon icon-lock-24px"></i></div>          </div>          <div class="generator_color_bar-left"></div>          <div class="generator_color_bar-right"></div>          <div class="generator_color_add-btn-left"></div>          <div class="generator_color_add-btn-right"></div>          <div class="generator_color_compare is-small"><div><span></span></div><div><span></span></div></div>          <div class="generator_color_contrast"></div>          <div class="generator_color_multicompare"><div class="generator_color_multicompare_inner"></div></div>        </div>      </div><div class="generator_color is-light show-content"  data-index="3">        <div class="generator_color_background" style="background: rgb(253, 240, 213); box-shadow: rgb(253, 240, 213) 0px 0px 0px 1px;"></div>        <div class="generator_color_content">          <div class="generator_color_hex" data-tooltip="Select color" style="">FDF0D5</div>          <div class="generator_color_color-info">Papaya whip</div>          <div class="generator_color_btns">            <div class="generator_color_remove-btn" data-tooltip="Remove color" data-tooltip-container="child"><i class="icon icon-remove-24px"></i></div>            <div class="generator_color_contrast-btn" data-tooltip="Check contrast" data-tooltip-container="child"><i class="icon icon-contrast-24px"></i></div>            <div class="generator_color_shades-btn" data-tooltip="View shades" data-tooltip-container="child"><i class="icon icon-grid-24px"></i></div>            <div class="generator_color_save-btn" data-tooltip-container="child" data-tooltip="Save color"><i class="icon icon-favorite-24px"></i><i class="icon icon-favorite-fill-24px"></i></div>            <div class="generator_color_drag-btn" data-tooltip="Drag" data-tooltip-container="child"><i class="icon icon-enlarge-horizontal-24px"></i><i class="icon icon-enlarge-vertical-24px"></i></div>            <div class="generator_color_copy-btn" data-tooltip="Copy HEX" data-tooltip-container="child"><i class="icon icon-copy-24px"></i></div>            <div class="generator_color_lock-btn" data-tooltip-container="child" data-tooltip="Toggle lock<span>CMD + 4</span>"><i class="icon icon-lock-open-24px"></i><i class="icon icon-lock-24px"></i></div>          </div>          <div class="generator_color_bar-left"></div>          <div class="generator_color_bar-right"></div>          <div class="generator_color_add-btn-left"></div>          <div class="generator_color_add-btn-right"></div>          <div class="generator_color_compare is-small"><div><span></span></div><div><span></span></div></div>          <div class="generator_color_contrast"></div>          <div class="generator_color_multicompare"><div class="generator_color_multicompare_inner"></div></div>        </div>      </div><div class="generator_color is-light show-content" data-index="4">        <div class="generator_color_background" style="background: rgb(198, 216, 211); box-shadow: rgb(198, 216, 211) 0px 0px 0px 1px;"></div>        <div class="generator_color_content">          <div class="generator_color_hex" data-tooltip="Select color" style="">C6D8D3</div>          <div class="generator_color_color-info">Ash gray</div>          <div class="generator_color_btns">            <div class="generator_color_remove-btn" data-tooltip="Remove color" data-tooltip-container="child"><i class="icon icon-remove-24px"></i></div>            <div class="generator_color_contrast-btn" data-tooltip="Check contrast" data-tooltip-container="child"><i class="icon icon-contrast-24px"></i></div>            <div class="generator_color_shades-btn" data-tooltip="View shades" data-tooltip-container="child"><i class="icon icon-grid-24px"></i></div>            <div class="generator_color_save-btn" data-tooltip-container="child" data-tooltip="Save color"><i class="icon icon-favorite-24px"></i><i class="icon icon-favorite-fill-24px"></i></div>            <div class="generator_color_drag-btn" data-tooltip="Drag" data-tooltip-container="child"><i class="icon icon-enlarge-horizontal-24px"></i><i class="icon icon-enlarge-vertical-24px"></i></div>            <div class="generator_color_copy-btn" data-tooltip="Copy HEX" data-tooltip-container="child"><i class="icon icon-copy-24px"></i></div>            <div class="generator_color_lock-btn" data-tooltip-container="child" data-tooltip="Toggle lock<span>CMD + 5</span>"><i class="icon icon-lock-open-24px"></i><i class="icon icon-lock-24px"></i></div>          </div>          <div class="generator_color_bar-left"></div>          <div class="generator_color_bar-right"></div>          <div class="generator_color_add-btn-left"></div>          <div class="generator_color_add-btn-right"></div>          <div class="generator_color_compare is-small"><div><span></span></div><div><span></span></div></div>          <div class="generator_color_contrast"></div>          <div class="generator_color_multicompare"><div class="generator_color_multicompare_inner"></div></div>        </div>      </div></div>
+      
+          <!-- Color Inspector -->
+          <div id="generator_color-inspector-wrapper"></div>
+      
+          <!-- Generator Add Buttons -->
+          <div id="generator_add-btn" data-tooltip="Add colors<span>Keep pressed</span>" style="inset: 50% auto auto 40px; height: 30px;"     class="" data-index="0">
+            <a id="generator_add-btn_1">
+              <i class="icon icon-add-16px"></i>
+            </a>
+            <div>
+              <span data-index="1">1</span>
+              <span data-index="2">2</span>
+              <span data-index="3">3</span>
+              <span data-index="4">4</span>
+              <span data-index="5">5</span>
+              <span data-index="6">6</span>
+              <span data-index="7">7</span>
+              <span data-index="8">8</span>
+              <span data-index="9">9</span>
+            </div>
+          </div>
+      
+          <!-- Zen Mode Close Button -->
+          <a class="btn-float" id="generator_zen-mode-close-btn">
+            <i class="icon icon-remove-16px"></i>
+          </a>
+      
+          <div class="native-carbon"></div>
+      
+        <div id="ar1HnlSvQWv"><div class="carbon-cad">        <script async="" type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DCK7Y" id="_carbonads_js"></script>        <div class="carbon-cad_close-btn">Hide</div>        <span class="carbon-cad_cta">Learn more</span>      </div></div></div>
+      
+        <div id="generator_palettes-sidebar">
+      
+          <!-- Palettes Sidebar -->
+          <div id="palettes-sidebar" data-active-tab="saved">
+      
+        <!-- Menu -->
+        <div id="palettes-sidebar_menu">
+          <div class="tabs">
+            <a class="is-active" href="saved" data-toggle="tab" tabindex="-1" data-label="Library"><div>Library</div></a>
+            <a href="explore" data-toggle="tab" tabindex="-1" id="palettes-sidebar_explore-link" data-label="Explore"><div>Explore</div></a>
+          </div>
+          <a class="btn btn--xs btn--transparent btn--icon" id="palettes-sidebar_close-btn">
+            <i class="icon icon-pe-arrow-left-24px"></i>
+          </a>
+          <a class="btn btn--xs btn--transparent btn--icon" id="palettes-sidebar_add-btn">
+            <i class="icon icon-add-24px"></i>
+          </a>
+        </div>
+      
+        <!-- Saved Tab -->
+        <div class="palettes-sidebar_tab is-visible" id="palettes-sidebar_saved" data-tab="saved">
+      
+          <div id="palettes-sidebar_saved_logout">
+            <div>Sign in to view your saved palettes.</div>
+            <a class="btn btn--secondary btn--xs btn--inline" id="palettes-sidebar_saved_login-btn">Sign in</a>
+          </div>
+      
+          <div id="palettes-sidebar_saved_login">
+      
+            <!-- Select-->
+            <div id="palettes-sidebar_saved_select">
+              <div class="palettes-sidebar_submenu">
+                <a class="link link--secondary palettes-sidebar_select" id="palettes-sidebar_saved_filter-btn">
+                  <span id="palettes-sidebar_saved_filter-name"></span>
+                  <i class="icon icon-down-arrow-16px"></i>
+                </a>
+                <a class="btn btn--xs btn--transparent btn--icon palettes-sidebar_button" id="palettes-sidebar_saved_search-btn">
+                  <i class="icon icon-zoom-24px"></i>
+                </a>
+              </div>
+            </div>
+      
+            <!-- Search -->
+            <div id="palettes-sidebar_saved_search" style="display: none;">
+              <div class="palettes-sidebar_submenu">
+                <div class="palettes-sidebar_search">
+                <i class="icon icon-zoom-24px"></i>
+                  <input type="text" class="input input--xs" placeholder="Search name or tag" id="palettes-sidebar_saved_search-input" tabindex="-1">
+                </div>
+                <a class="btn btn--xs btn--transparent btn--icon palettes-sidebar_button" id="palettes-sidebar_saved_select-btn">
+                  <i class="icon icon-remove-24px"></i>
+                </a>
+              </div>
+            </div>
+      
+            <div class="palettes-sidebar_scroller" id="palettes-sidebar_saved_scroller">
+              <div class="palettes-sidebar_palettes" id="palettes-sidebar_saved_palettes"></div>
+              <div class="palettes-sidebar_no-results" id="palettes-sidebar_saved_no-results"></div>
+              <div class="palettes-sidebar_loader" id="palettes-sidebar_saved_loader"><div class="spinner spinner--m"></div></div>
+            </div>
+      
+          </div>
+      
+        </div>
+      
+        <!-- Explore Tab -->
+        <div class="palettes-sidebar_tab" id="palettes-sidebar_explore" data-tab="explore">
+      
+          <!-- Select-->
+          <div id="palettes-sidebar_explore_select">
+            <div class="palettes-sidebar_submenu">
+              <a class="link link--secondary palettes-sidebar_select" id="palettes-sidebar_explore_filter-btn">
+                <span id="palettes-sidebar_explore_filter-name"></span>
+                <i class="icon icon-down-arrow-16px"></i>
+              </a>
+              <a class="btn btn--xs btn--transparent btn--icon palettes-sidebar_button" id="palettes-sidebar_explore_search-btn">
+                <i class="icon icon-zoom-24px"></i>
+              </a>
+            </div>
+          </div>
+      
+          <!-- Search -->
+          <div id="palettes-sidebar_explore_search" style="display: none;">
+            <div class="palettes-sidebar_submenu">
+              <div class="palettes-sidebar_search">
+                <i class="icon icon-zoom-24px"></i>
+                <input type="text" class="input input--xs" placeholder="Search keyword" id="palettes-sidebar_explore_search-input" tabindex="-1">
+              </div>
+              <a class="btn btn--xs btn--transparent btn--icon palettes-sidebar_button" id="palettes-sidebar_explore_select-btn">
+                <i class="icon icon-remove-24px"></i>
+              </a>
+            </div>
+          </div>
+      
+          <!-- Scroller -->
+          <div class="palettes-sidebar_scroller" id="palettes-sidebar_explore_scroller">
+            <div class="palettes-sidebar_palettes" id="palettes-sidebar_explore_palettes"></div>
+            <div class="palettes-sidebar_no-results" id="palettes-sidebar_explore_no-results"></div>
+            <div class="palettes-sidebar_loader" id="palettes-sidebar_explore_loader">
+              <div class="spinner spinner--m"></div>
+              <button class="btn btn--s btn--secondary btn--inline">Load more</button>
+            </div>
+          </div>
+      
+        </div>
+      
+        <!-- Explore Filter -->
+        <div class="palettes-sidebar_filter" id="palettes-sidebar_explore-filter">
+          <div class="palettes-sidebar_filter_menu">
+            <span>Filter palettes</span>
+            <a class="btn btn--xs btn--transparent btn--icon" id="palettes-sidebar_explore-filter_close-btn">
+              <i class="icon icon-remove-24px"></i>
+            </a>
+          </div>
+          <div class="palettes-sidebar_filter_scroller">
+      
+            <!-- Sort -->
+            <div>
+              <div class="palettes-sidebar_filter_scroller_label">Sort</div>
+              <div id="palettes-sidebar_explore-filter_sort"><div class="list-selector">      <input type="text" readonly="">        <select tabindex="-1" name="select_18647"><option value="TRENDING" data-id="TRENDING" data-name="Trending">Trending</option><option value="LATEST" data-id="LATEST" data-name="Latest">Latest</option><option value="POPULAR" data-id="POPULAR" data-name="Popular">Popular</option></select>        <div class="list-selector_list"><a data-id="TRENDING" data-name="Trending" class="is-selected">
+              
+              <div class="list-selector_name">Trending</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="LATEST" data-name="Latest">
+              
+              <div class="list-selector_name">Latest</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="POPULAR" data-name="Popular">
+              
+              <div class="list-selector_name">Popular</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No items</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+            </div>
+      
+            <!-- All -->
+            <!-- <div class="input-group _m-b-0 _m-t-2">
+              <div id="palettes-sidebar_explore-filter_all"></div>
+            </div> -->
+      
+            <!-- Style -->
+              <div>
+              <div class="palettes-sidebar_filter_scroller_label">Style</div>
+              <div id="palettes-sidebar_explore-filter_style"><div class="list-selector">      <input type="text" readonly="">        <select tabindex="-1" name="select_94313"><option value="warm" data-id="warm" data-name="Warm">Warm</option><option value="cold" data-id="cold" data-name="Cold">Cold</option><option value="bright" data-id="bright" data-name="Bright">Bright</option><option value="dark" data-id="dark" data-name="Dark">Dark</option><option value="pastel" data-id="pastel" data-name="Pastel">Pastel</option><option value="vintage" data-id="vintage" data-name="Vintage">Vintage</option><option value="monochromatic" data-id="monochromatic" data-name="Monochromatic">Monochromatic</option><option value="gradient" data-id="gradient" data-name="Gradient">Gradient</option></select>        <div class="list-selector_list"><a data-id="warm" data-name="Warm">
+              
+              <div class="list-selector_name">Warm</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="cold" data-name="Cold">
+              
+              <div class="list-selector_name">Cold</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="bright" data-name="Bright">
+              
+              <div class="list-selector_name">Bright</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="dark" data-name="Dark">
+              
+              <div class="list-selector_name">Dark</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="pastel" data-name="Pastel">
+              
+              <div class="list-selector_name">Pastel</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="vintage" data-name="Vintage">
+              
+              <div class="list-selector_name">Vintage</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="monochromatic" data-name="Monochromatic">
+              
+              <div class="list-selector_name">Monochromatic</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="gradient" data-name="Gradient">
+              
+              <div class="list-selector_name">Gradient</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No items</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+            </div>
+      
+            <!-- Group -->
+            <div>
+              <div class="palettes-sidebar_filter_scroller_label">Color</div>
+              <div id="palettes-sidebar_explore-filter_group"><div class="list-selector">      <input type="text" readonly="">        <select tabindex="-1" name="select_10213"><option value="red" data-id="red" data-name="Red">Red</option><option value="orange" data-id="orange" data-name="Orange">Orange</option><option value="brown" data-id="brown" data-name="Brown">Brown</option><option value="yellow" data-id="yellow" data-name="Yellow">Yellow</option><option value="green" data-id="green" data-name="Green">Green</option><option value="turquoise" data-id="turquoise" data-name="Turquoise">Turquoise</option><option value="blue" data-id="blue" data-name="Blue">Blue</option><option value="violet" data-id="violet" data-name="Violet">Violet</option><option value="pink" data-id="pink" data-name="Pink">Pink</option><option value="white" data-id="white" data-name="White">White</option><option value="gray" data-id="gray" data-name="Gray">Gray</option><option value="black" data-id="black" data-name="Black">Black</option></select>        <div class="list-selector_list"><a data-id="red" data-name="Red">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 41, 41);"></div>Red</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="orange" data-name="Orange">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 122, 41);"></div>Orange</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="brown" data-name="Brown">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(191, 127, 53);"></div>Brown</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="yellow" data-name="Yellow">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(250, 208, 46);"></div>Yellow</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="green" data-name="Green">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(145, 250, 73);"></div>Green</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="turquoise" data-name="Turquoise">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(54, 216, 183);"></div>Turquoise</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="blue" data-name="Blue">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(59, 138, 255);"></div>Blue</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="violet" data-name="Violet">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(153, 30, 249);"></div>Violet</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="pink" data-name="Pink">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 93, 205);"></div>Pink</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="white" data-name="White">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 255, 255);"></div>White</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="gray" data-name="Gray">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(179, 186, 193);"></div>Gray</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="black" data-name="Black">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(0, 0, 0);"></div>Black</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No items</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+            </div>
+      
+          </div>
+        </div>
+      
+          <!-- Saved Filter -->
+          <div class="palettes-sidebar_filter" id="palettes-sidebar_saved-filter">
+            <div class="palettes-sidebar_filter_menu">
+              <span>Filter palettes</span>
+              <a class="btn btn--xs btn--transparent btn--icon" id="palettes-sidebar_saved-filter_close-btn">
+                <i class="icon icon-remove-24px"></i>
+              </a>
+            </div>
+            <div class="palettes-sidebar_filter_scroller">
+      
+              <!-- All -->
+              <div id="palettes-sidebar_saved-filter_all"><div class="list-selector">      <input type="text" readonly="">        <select tabindex="-1" name="select_68593"><option value="ALL" data-id="ALL" data-name="All palettes">All palettes</option></select>        <div class="list-selector_list"><a data-id="ALL" data-name="All palettes">
+              
+              <div class="list-selector_name">All palettes</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No items</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+      
+              <!-- Projects -->
+              <div>
+                <div class="palettes-sidebar_filter_scroller_label">
+                  Projects            <a class="btn btn--xxs btn--transparent btn--icon" id="palettes-sidebar_saved-filter_add-project-btn" data-tooltip="New project" data-tooltip-container="child"><i class="icon icon-add-16px"></i></a>
+                </div>
+                <div id="palettes-sidebar_saved-filter_projects"><div class="list-selector has-more-btn is-empty">      <input type="text" readonly="">        <select tabindex="-1" name="select_47774"></select>        <div class="list-selector_list"></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No projects yet.</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+              </div>
+      
+              <!-- Collections -->
+              <div>
+                <div class="palettes-sidebar_filter_scroller_label">
+                  Collections            <a class="btn btn--xxs btn--transparent btn--icon" id="palettes-sidebar_saved-filter_add-collection-btn" data-tooltip="New collection" data-tooltip-container="child"><i class="icon icon-add-16px"></i></a>
+                </div>
+                <div id="palettes-sidebar_saved-filter_collections"><div class="list-selector has-more-btn is-empty">      <input type="text" readonly="">        <select tabindex="-1" name="select_16738"></select>        <div class="list-selector_list"></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No collections yet.</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+              </div>
+      
+              <!-- Style -->
+              <div>
+                <div class="palettes-sidebar_filter_scroller_label">Style</div>
+                <div id="palettes-sidebar_saved-filter_style"><div class="list-selector">      <input type="text" readonly="">        <select tabindex="-1" name="select_74188"><option value="warm" data-id="warm" data-name="Warm">Warm</option><option value="cold" data-id="cold" data-name="Cold">Cold</option><option value="bright" data-id="bright" data-name="Bright">Bright</option><option value="dark" data-id="dark" data-name="Dark">Dark</option><option value="pastel" data-id="pastel" data-name="Pastel">Pastel</option><option value="vintage" data-id="vintage" data-name="Vintage">Vintage</option><option value="monochromatic" data-id="monochromatic" data-name="Monochromatic">Monochromatic</option><option value="gradient" data-id="gradient" data-name="Gradient">Gradient</option></select>        <div class="list-selector_list"><a data-id="warm" data-name="Warm">
+              
+              <div class="list-selector_name">Warm</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="cold" data-name="Cold">
+              
+              <div class="list-selector_name">Cold</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="bright" data-name="Bright">
+              
+              <div class="list-selector_name">Bright</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="dark" data-name="Dark">
+              
+              <div class="list-selector_name">Dark</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="pastel" data-name="Pastel">
+              
+              <div class="list-selector_name">Pastel</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="vintage" data-name="Vintage">
+              
+              <div class="list-selector_name">Vintage</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="monochromatic" data-name="Monochromatic">
+              
+              <div class="list-selector_name">Monochromatic</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="gradient" data-name="Gradient">
+              
+              <div class="list-selector_name">Gradient</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No items</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+              </div>
+      
+              <!-- Group -->
+              <div>
+                <div class="palettes-sidebar_filter_scroller_label">Color</div>
+                <div id="palettes-sidebar_saved-filter_group"><div class="list-selector">      <input type="text" readonly="">        <select tabindex="-1" name="select_42628"><option value="red" data-id="red" data-name="Red">Red</option><option value="orange" data-id="orange" data-name="Orange">Orange</option><option value="brown" data-id="brown" data-name="Brown">Brown</option><option value="yellow" data-id="yellow" data-name="Yellow">Yellow</option><option value="green" data-id="green" data-name="Green">Green</option><option value="turquoise" data-id="turquoise" data-name="Turquoise">Turquoise</option><option value="blue" data-id="blue" data-name="Blue">Blue</option><option value="violet" data-id="violet" data-name="Violet">Violet</option><option value="pink" data-id="pink" data-name="Pink">Pink</option><option value="white" data-id="white" data-name="White">White</option><option value="gray" data-id="gray" data-name="Gray">Gray</option><option value="black" data-id="black" data-name="Black">Black</option></select>        <div class="list-selector_list"><a data-id="red" data-name="Red">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 41, 41);"></div>Red</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="orange" data-name="Orange">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 122, 41);"></div>Orange</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="brown" data-name="Brown">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(191, 127, 53);"></div>Brown</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="yellow" data-name="Yellow">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(250, 208, 46);"></div>Yellow</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="green" data-name="Green">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(145, 250, 73);"></div>Green</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="turquoise" data-name="Turquoise">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(54, 216, 183);"></div>Turquoise</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="blue" data-name="Blue">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(59, 138, 255);"></div>Blue</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="violet" data-name="Violet">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(153, 30, 249);"></div>Violet</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="pink" data-name="Pink">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 93, 205);"></div>Pink</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="white" data-name="White">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(255, 255, 255);"></div>White</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="gray" data-name="Gray">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(179, 186, 193);"></div>Gray</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="black" data-name="Black">
+              
+              <div class="list-selector_name"><div class="list-selector_color" style="background-color: rgb(0, 0, 0);"></div>Black</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No items</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+              </div>
+      
+            </div>
+          </div>
+      
+      </div>
+      
+          <div id="generator_palettes-sidebar_overlay"></div>
+      
+        </div>
+      
+        <!-- Color Blindness -->
+      
+        <div class="generator-sidebar">
+      
+          <div id="generator_color-blindness" data-sidebar="color-blindness" style="display: none;">
+      
+            <div class="generator-sidebar_title">
+              <span>Color blindness</span>
+            </div>
+      
+            <div class="generator-sidebar_body"><div class="list-selector">      <input type="text" readonly="">        <select tabindex="-1" name="select_83819"><option value="protanopia" data-id="protanopia" data-name="Protanopia">Protanopia</option><option value="deuteranopia" data-id="deuteranopia" data-name="Deuteranopia">Deuteranopia</option><option value="tritanopia" data-id="tritanopia" data-name="Tritanopia">Tritanopia</option><option value="achromatopsia" data-id="achromatopsia" data-name="Achromatopsia">Achromatopsia</option><option value="protanomaly" data-id="protanomaly" data-name="Protanomaly">Protanomaly</option><option value="deuteranomaly" data-id="deuteranomaly" data-name="Deuteranomaly">Deuteranomaly</option><option value="tritanomaly" data-id="tritanomaly" data-name="Tritanomaly">Tritanomaly</option><option value="achromatomaly" data-id="achromatomaly" data-name="Achromatomaly">Achromatomaly</option></select>        <div class="list-selector_list"><a data-id="protanopia" data-name="Protanopia">
+              
+              <div class="list-selector_name">Protanopia</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="deuteranopia" data-name="Deuteranopia">
+              
+              <div class="list-selector_name">Deuteranopia</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="tritanopia" data-name="Tritanopia">
+              
+              <div class="list-selector_name">Tritanopia</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="achromatopsia" data-name="Achromatopsia">
+              
+              <div class="list-selector_name">Achromatopsia</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="protanomaly" data-name="Protanomaly">
+              
+              <div class="list-selector_name">Protanomaly</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="deuteranomaly" data-name="Deuteranomaly">
+              
+              <div class="list-selector_name">Deuteranomaly</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="tritanomaly" data-name="Tritanomaly">
+              
+              <div class="list-selector_name">Tritanomaly</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a><a data-id="achromatomaly" data-name="Achromatomaly">
+              
+              <div class="list-selector_name">Achromatomaly</div>
+              
+              <div class="list-selector_small-text"></div>
+              <i class="list-selector_check-icon icon icon-check-12px"></i>
+              <i class="list-selector_more-btn icon icon-dots-24px"></i>
+            </a></div>        <div class="list-selector_loader">Loading...</div>        <div class="list-selector_empty">No items</div>        <div class="list-selector_no-match" style="display: none;">No found</div>      </div></div>
+            <div class="generator-sidebar_bottom">
+              <div class="row">
+                <div class="col">
+                  <a href="" class="btn btn--secondary btn--s" id="generator_color-blindness_cancel-btn">Cancel</a>
+                </div>
+                <div class="col">
+                  <a href="" class="btn btn--primary btn--s" id="generator_color-blindness_apply-btn">Apply</a>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+      
+          <div id="generator_palette-adjust" data-sidebar="palette-adjust" style="display: none;">
+      
+            <div class="generator-sidebar_title">
+              <span>Adjust palette</span>
+            </div>
+      
+            <div class="generator-sidebar_body"><div class="input-range-group"><label>Hue</label><div class="input-number"><input type="text" class="input input--xs" pattern="(-+)?d*" min="-180" max="180">
+              <div class="input-number_buttons">
+                <a></a>
+                <a></a>
+              </div>
+            </div><div class="input-range is-centered"><input type="range" min="-180" max="180" step="1"><div class="input-range_track"><div class="input-range_active" style="display: none; transform: translate3d(-10px, -50%, 0px); width: 10px;"></div><span style="left:0px"></span></div><div class="input-range_cursor" style="width: 20px; height: 20px; transform: translate3d(-10px, -50%, 0px);"><span></span></div></div></div><div class="input-range-group"><label>Saturation</label><div class="input-number"><input type="text" class="input input--xs" pattern="(-+)?d*" min="-100" max="100">
+              <div class="input-number_buttons">
+                <a></a>
+                <a></a>
+              </div>
+            </div><div class="input-range is-centered"><input type="range" min="-100" max="100" step="1"><div class="input-range_track"><div class="input-range_active" style="display: none; transform: translate3d(-10px, -50%, 0px); width: 10px;"></div><span style="left:0px"></span></div><div class="input-range_cursor" style="width: 20px; height: 20px; transform: translate3d(-10px, -50%, 0px);"><span></span></div></div></div><div class="input-range-group"><label>Brightness</label><div class="input-number"><input type="text" class="input input--xs" pattern="(-+)?d*" min="-100" max="100">
+              <div class="input-number_buttons">
+                <a></a>
+                <a></a>
+              </div>
+            </div><div class="input-range is-centered"><input type="range" min="-100" max="100" step="1"><div class="input-range_track"><div class="input-range_active" style="display: none; transform: translate3d(-10px, -50%, 0px); width: 10px;"></div><span style="left:0px"></span></div><div class="input-range_cursor" style="width: 20px; height: 20px; transform: translate3d(-10px, -50%, 0px);"><span></span></div></div></div><div class="input-range-group"><label>Temperature</label><div class="input-number"><input type="text" class="input input--xs" pattern="(-+)?d*" min="-100" max="100">
+              <div class="input-number_buttons">
+                <a></a>
+                <a></a>
+              </div>
+            </div><div class="input-range is-centered"><input type="range" min="-100" max="100" step="1"><div class="input-range_track"><div class="input-range_active" style="display: none; transform: translate3d(-10px, -50%, 0px); width: 10px;"></div><span style="left:0px"></span></div><div class="input-range_cursor" style="width: 20px; height: 20px; transform: translate3d(-10px, -50%, 0px);"><span></span></div></div></div></div>
+      
+            <div class="generator-sidebar_bottom">
+              <div class="row">
+                <div class="col">
+                  <a href="" class="btn btn--secondary btn--s" id="generator_palette-adjust_cancel-btn">Cancel</a>
+                </div>
+                <div class="col">
+                  <a href="" class="btn btn--primary btn--s" id="generator_palette-adjust_apply-btn">Apply</a>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+      
+          <!-- <div id="generator_palette-contrast" data-sidebar="palette-contrast">
+      
+            <div class="generator-sidebar_title">
+              <span>Palette contrast check</span>
+            </div>
+      
+            <div class="generator-sidebar_body">
+              <div id="generator_palette-contrast_overall">
+                <div id="generator_palette-contrast_score">
+                  <div>Very poor</div>
+                  <div><div></div><div></div><div></div><span></span><span></span></div>
+                </div>
+                <div id="generator_palette-contrast_adjacent">
+                  <input type="checkbox" class="checkbox checkbox--right" id="generator-settings_isolation-mode">
+                  <label>Evaluate only adjacent colors</label>
+                </div>
+                <div class="btn btn--s btn--primary" id="generator_palette-contrast_fix-btn">Fix palette...</div>
+              </div>
+              <div id="generator_palette-contrast_list">
+                <strong>Low contrast colors</strong>
+                <div class="generator_palette-contrast_item">
+                  <div class="generator_palette-contrast_item_colors">
+                    <div>Hello</div>
+                    <div>Hello</div>
+                  </div>
+                  <div class="generator_palette-contrast_item_score">
+                    <div>Poor contrast</div>
+                    <a class="link link--primary link--hovere-underlined">Fix</a>
+                  </div>
+                </div>
+                <div class="generator_palette-contrast_item">
+                  <div class="generator_palette-contrast_item_colors">
+                    <div>Hello</div>
+                    <div>Hello</div>
+                  </div>
+                  <div class="generator_palette-contrast_item_score">
+                    <div>Poor contrast</div>
+                    <a class="link link--primary link--hovere-underlined">Fix</a>
+                  </div>
+                </div>
+                <div class="generator_palette-contrast_item">
+                  <div class="generator_palette-contrast_item_colors">
+                    <div>Hello</div>
+                    <div>Hello</div>
+                  </div>
+                  <div class="generator_palette-contrast_item_score">
+                    <div>Poor contrast</div>
+                    <a class="link link--primary link--hovere-underlined">Fix</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="generator-sidebar_bottom">
+              <div class="row">
+                <div class="col">
+                  <a href="" class="btn btn--secondary btn--s" id="generator_palette-contrast_cancel-btn">Cancel</a>
+                </div>
+                <div class="col">
+                  <a href="" class="btn btn--primary btn--s" id="generator_palette-contrast_apply-btn">Apply</a>
+                </div>
+              </div>
+      
+            </div>
+          </div> -->
+      
+        </div>
+      
+    </div>
+
+    <script>
+        const mobileMenu = document.querySelector("#mobile-menu");
+        function displayMenu() {
+            mobileMenu.setAttribute("class","is-visible");
+        }
+        
+        function hideMenu() {
+            mobileMenu.setAttribute("class","");
+        }
+        window.onload = function() {
+          const proportion = [0,20,40,60,80];
+          const colorBlocks = document.querySelector("#generator_colors").children;
+          const screenWidth = window.innerWidth;
+          if(screenWidth < 768) {
+              for(var i = 0; i < colorBlocks.length; i++) {
+              colorBlocks[i].style.top = proportion[i] + "%";
+              colorBlocks[i].style.left = "0%";
+              colorBlocks[i].style.width = "100%";
+              colorBlocks[i].style.height = "20%";
+  
+              }
+          }
+      
+          if(screenWidth >= 768) {
+              for(var i = 0; i <colorBlocks.length; i++) {
+              colorBlocks[i].style.top = "0%";
+              colorBlocks[i].style.left = proportion[i] + "%";
+              colorBlocks[i].style.width = "20%";
+              colorBlocks[i].style.height = "100%";
+              }
+          }
+        }
+        
+        
+  
+        window.onresize = function() {
+          
+          const proportion = [0,20,40,60,80];
+          const colorBlocks = document.querySelector("#generator_colors").children;
+          const screenWidth = window.innerWidth;
+          if(screenWidth < 768) {
+              for(var i = 0; i < colorBlocks.length; i++) {
+              colorBlocks[i].style.top = proportion[i] + "%";
+              colorBlocks[i].style.left = "0%";
+              colorBlocks[i].style.width = "100%";
+              colorBlocks[i].style.height = "20%";
+  
+              }
+          }
+      
+          if(screenWidth >= 768) {
+              for(var i = 0; i <colorBlocks.length; i++) {
+              colorBlocks[i].style.top = "0%";
+              colorBlocks[i].style.left = proportion[i] + "%";
+              colorBlocks[i].style.width = "20%";
+              colorBlocks[i].style.height = "100%";
+              }
+          }
+        }
+
+        
+        
+        
+
+
+      </script>
+</body>
+</html>
